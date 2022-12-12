@@ -1,0 +1,446 @@
+
+	body{
+	
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Poppins", sans-serif;
+		
+	
+	}
+	
+	li, button, a{
+		
+		cursor: pointer;
+		
+	}
+	
+	.underline:hover{
+		
+		border-bottom: 1px solid;
+		cursor: pointer;
+	}
+	
+	
+	#nav-bar{
+		
+		background-image: url(back.jpg);
+		background-size: cover;     
+		background-repeat: no-repeat;
+		width: 100wh;
+		height:100vh;
+		display: flex;
+		flex-direction: column;
+
+		
+	}
+	
+	.main{
+		
+		background: transparent;
+		width: 100wh;
+		height:12vh;
+		display:flex;
+		justify-content: space-around;
+	}
+	
+	#background{
+		
+		color: #ffffff;
+		display: flex;
+		width: 100wh;
+		height: 90vh;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}	
+	
+	
+	#logo{
+		
+		margin-top: 4px;
+		font-size: 120%;
+		color: #ffffff;
+		cursor: pointer;
+		
+	}
+	
+	span{
+		
+		color: #d9573f;		
+		
+	}
+	
+	#nav-items{
+		
+		margin-top: 13px;
+		color: #ffffff;
+		font-weight:bold;
+		
+	}
+	#nav-items li{
+		
+		display:inline-block;
+		margin: 0px 10px 0px 10px;
+				
+	}
+	
+	.signup{
+		
+		padding:10px;
+		color: #ffffff;
+		background-color: #ea563a;
+		font-weight: bold;
+		width: 120%;
+		border: none;
+		
+	}
+	
+	.signup:hover{
+		
+		opacity:0.9;
+		
+	}
+	
+	
+	.member{
+		
+		padding:10px;
+		width:160px;
+		height:50px;
+		color: #ffffff;
+		background-color: #ea563a;
+		font-weight: bold;
+		border: none;
+		
+	}
+	
+	.member:hover{
+		
+		opacity:0.9;
+		
+	}
+	
+	.back-text{
+		
+		margin-bottom: -7px;
+		
+	}
+	
+	.heading{
+		
+		font-size: 450%;
+		margin-bottom:30px;
+		
+	}
+	
+	#program{
+		
+		margin: 100px 0 85px 0;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items:center;
+	}
+	
+	#program h2{
+		
+		font-size:200%;
+		color: #232d38;
+	}
+	
+	#program p{
+		
+		width: 500px;
+		text-align:center;
+	}
+	
+	.program-logo{
+		
+		margin-top: -8px;
+	}
+	
+	#card{
+		margin:0;
+		padding:0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-around;
+	
+	}
+	
+	.card-1{
+		
+		margin:20px;
+		padding:0;
+		display:flex;
+		width: 600px;
+		height:100px;
+	}
+	.card-content h3{
+		
+		margin-top: 0px;
+		margin-bottom: 4px;
+	}
+	
+	.card-content p{
+		
+		margin-top: 5px;
+		margin-bottom: 4px;
+	}
+	
+	.card-1 span{
+		
+		font-size:90%;
+		font-weight: bold;
+	}
+	
+	.card-1 img{
+		
+		width:100px;
+		height:100px;
+	}
+	
+	.card-content{
+		
+		display:flex;
+		flex-direction: column;
+		margin-left: 20px;
+	}
+	
+	#extra{
+		
+		margin-top: 100px;
+		width:100%;
+		height:50vh;
+		background-color: black;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#extra h1{
+		
+		color: #ffffff;
+		
+	}
+	
+	#extra p{
+		
+		color: #ffffff;
+		width: 900px;
+		text-align: center;
+	}
+	
+	#classes{
+		
+		display: flex;
+		height:600px;
+		width: 100wh;
+		
+	}
+	
+	#schedule{
+		
+		width:600px;
+		height: 591px;
+		margin: 0 30px;
+		
+	}
+	
+	.class-1{
+		
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		width:300px;
+		height:100px;
+		color: #232d38;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 0 0 30px 0 
+	}
+	
+	#schedule button{
+		
+		width:300px;
+		height:70px;
+		border-radius: 8px;
+		
+	}
+	
+	#schedule-content{
+		
+		margin: 0 20px;
+		
+	}
+	
+	.class-1{
+		
+		cursor:pointer;
+		
+	}
+	
+	#schedule-content img{
+		
+		height: 400px;
+		width:  900px;
+		margin-bottom: 10px;
+		border-radius: 8px;
+		
+	}
+	
+	#schedule-content button{
+		
+		margin-top: 8px;
+		
+	}
+	
+	
+	#time-content{
+		
+		margin-top: 100px;
+		background-image: linear-gradient(rgba(29, 34, 42,0.9), rgba(29, 34, 42,0.9)), url(schedule.jpg);
+		background-size: cover;     
+		background-repeat: no-repeat;
+		width:100wh;
+		height: 150vh;
+		
+		
+	}
+	
+	.samay{
+		
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items:center;
+		padding-top: 100px;
+		
+	}
+	
+	
+	.samay h2{
+		
+		font-size:200%;
+	}
+	
+	.white{
+		
+		color: #ffffff;
+		
+	}
+	
+	.samay p{
+		
+		color: #ffffff;
+		width: 500px;
+		text-align:center;
+	}
+	
+	.program-logo{
+		
+		margin-top: -8px;
+	}
+	
+	.week li{
+		
+		display:inline-block;
+		margin: 0px 10px 0px 10px;
+		color: #ffffff;
+		font-size: 18px;
+	}
+	
+	.hover-red:hover{
+		
+		color: #d9573f;
+		
+	}
+	
+	.week ul{
+		
+		margin-top: 50px;
+		display:flex;
+		justify-content:center;
+	}
+	
+	
+	table tr td{
+		
+		border: 1px solid;
+		text-align: center;
+		padding: 40px;
+	}
+	
+	table{
+		
+		margin-top: 50px;
+		color: #ffffff;
+		border-collapse: collapse;
+		display: flex;
+		justify-content: center;
+	}
+	
+	#trainer-card{
+		
+		display:flex;
+		justify-content: space-around;
+		
+	}
+	
+	.trainer{
+		
+		width:360px;
+		height:500px;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-size: cover;     
+		background-repeat: no-repeat;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		padding: 20px;
+		
+		
+	}
+	
+	.trainer p, h2{
+		
+		margin-bottom: 2px;
+		align-items: left;
+	}
+	
+	.hi{
+		
+		color: #ea563a;
+
+	}
+	
+	.trainer h2, bye{
+		
+		color: rgb(35,45,56);
+	}
+	
+	.trainer img{
+		
+		width:350px;
+		height: 350px;
+		border-radius:5px;
+		align-items: center;
+	}
+	
+	.social{
+		
+		display:flex;
+		margin-top: 30px;
+	}
+	
+	.social img{
+		
+		height:25px;
+		width:25px;
+		margin-right: 4px;
+		cursor: pointer;
+	}
+	
+	
+	
